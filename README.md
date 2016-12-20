@@ -5,7 +5,7 @@ netease API for web.
 网易云音乐web端API  
 通过音乐返回音乐文件地址，其他的API类似
 
-** 分析文档之后放出 (TODO) **
+**分析文档之后放出 (TODO)**
 
 ## 支持
 目前语言用java所写,可以支持的语言有如下几种:
@@ -28,5 +28,8 @@ netease API for web.
 [jackson](http://wiki.fasterxml.com/JacksonHome)  
 > json解析支持,需要`databind`
 
+## 已知问题
+有些情况下会返回错误(rsa),可能是BigInteger转字符串需要补00进行补码,这种情况可以更换标准RSA算法
+
 ## 说明
-** 代码仅供学习参考 **
+**代码仅供学习参考**
