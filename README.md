@@ -5,7 +5,8 @@ netease API for web.
 网易云音乐web端API  
 通过音乐返回音乐文件地址，其他的API类似
 
-**分析文档之后放出 (TODO)**
+## 文档
+- [详细的分析文档](./doc/document.md)
 
 ## 支持
 目前语言用java所写,可以支持的语言有如下几种:
@@ -16,7 +17,7 @@ netease API for web.
 - C#
 - perl
 
-> 有需要的请提交PR
+> 有需要的请提交一下
 
 ## JAVA库
 [okhttp](http://square.github.io/okhttp/)  
